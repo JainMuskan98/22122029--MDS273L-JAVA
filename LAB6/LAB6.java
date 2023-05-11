@@ -50,7 +50,7 @@ class StudentInfo {
          * And wite the info to the file
          */
         String fileName = name + "_info.txt";
-        String filepath = "C:\\Users\\moaza\\Java\\Java_Lab\\Lab_6\\" + fileName;
+        String filepath = fileName;
         try {
             File file = new File(filepath);
 
