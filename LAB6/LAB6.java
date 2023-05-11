@@ -7,15 +7,14 @@ import java.util.Scanner;
 
 
 class StudentInfo {
-    /* Student Class To create student objects, Display the object and write to a file */
+    
     String name = new String();
     String regNo = new String();
     String email = new String();
     String phone = new String();
     String sclass = new String();
     String department = new String();
-
-    // Contructor
+    
     StudentInfo() {
         name = "";
         regNo = "";
@@ -26,7 +25,7 @@ class StudentInfo {
     }
 
     void Display() {
-        /* Display info of the student object */
+        
         System.out.println("Name: " + name);
         System.out.println("reg No.: " + regNo);
         System.out.println("email: " + email);
@@ -46,9 +45,7 @@ class StudentInfo {
     }
 
     void writeToFile() {
-        /*Create a file with the name_info
-         * And wite the info to the file
-         */
+        
         String fileName = name + "_info.txt";
         String filepath = fileName;
         try {
